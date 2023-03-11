@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <h1>Todo List</h1>
+    <div>
+      <input class="input"
+        aria-label="Add new task"
+        type="text"
+        placeholder="Add your task" />
+      <div>
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+    <ul class="ul">
+      <li>
+        <span>Walk the dog</span>
+        <button class="delete">Delete</button>
+      </li>
+      <li>
+        <span>Water the plants</span>
+        <button class="delete">Delete</button>
+      </li>
+      <li>
+        <span>Wash the dishes</span>
+        <button class="delete">Delete</button>
+      </li>
+    </ul>
+  </div>
+
+    <script src='./app.js'></script>
+</body>
+</html>
